@@ -11,7 +11,7 @@ spec:
     namespace: default
   project: default
   source:
-    chart: jager
+    chart: jaeger
     repoURL: https://jaegertracing.github.io/helm-charts
     targetRevision: 0.69.1
   syncPolicy:
