@@ -18,6 +18,19 @@ spec:
       values: |
         grafana:
           enable: true
+        write:
+          persistence:
+            storageClass: bsu-sc
+        backend:
+          persistence:
+            storageClass: bsu-sc
+        read:
+          persistencce:
+            storageClass: bsu-sc
+        singleBinary:
+          persistence:
+            storageClass: bsu-sc
+        
   syncPolicy:
     automated:
       prune: true
