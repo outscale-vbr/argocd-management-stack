@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: apps/
-    repoURL: https://github.com/outscale-vbr/argocd-stack.git
+    repoURL: https://github.com/outscale-vbr/argocd-management-stack.git
     targetRevision: HEAD      
   syncPolicy:
     automated:
